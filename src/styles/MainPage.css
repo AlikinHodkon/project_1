@@ -1,0 +1,7 @@
+.mainWrapper{
+    display: flex;
+}
+
+.mainWrapper img{
+    height: 70%;
+}

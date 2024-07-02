@@ -1,0 +1,135 @@
+.aboutWrapper{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+#titleAbout{
+    color: #27272A;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    margin-left: 5vw;
+    margin-right: auto;
+}
+
+.blockWrapper_1{
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    width: 100%;
+}
+
+.photoWrapper{
+    width: 40%;
+    align-items: center;
+    display: flex;
+    margin-left: 5vw;
+}
+
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutText{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10vw;
+}
+
+.aboutText p{
+    width: 30vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #696969;
+}
+
+#name{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #27272A;
+}
+
+#line{
+    border: 3px solid #7E3AF2;
+    width: 25px;
+    margin-bottom: 4vh;
+}
+
+#blockButton{
+    margin-left: 10vw;
+    width: 12vw;
+}
+
+.blockWrapper_2{
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    width: 100%;
+}
+
+.interestsWrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.interestsWrapper h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    color:#27272A;
+}
+
+.interestsWrapper ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 5vw;
+}
+
+.educationsWrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.educationsWrapper h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    color:#27272A;
+}
+
+.educationsWrapper ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+}

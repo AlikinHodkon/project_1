@@ -1,0 +1,32 @@
+.interestWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 6vh;
+    margin-bottom: 1vh;
+}
+
+.interestTextWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.interestTextWrapper h4{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    justify-content: center;
+    color:#27272A;
+}
+
+.interestTextWrapper p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color:#27272A;
+}
