@@ -1,16 +1,14 @@
-import React from 'react'
-import Navbar from '../components/Navbar';
 import Title from '../components/Title';
 import "../styles/MainPage.css";
 
 export default function MainPage() {
   return (
-    <div>
-        <Navbar />
-        <div className='mainWrapper'>     
+    <div id='main'>
+        <div className='flex flex-row'>     
             <Title />
-            <img src={"/images/photo.png"} alt=''/>
+            <img className="hidden" src={"/images/photo.png"} alt=''/>
         </div>
+        <img className="mt-[-100px]" src={"/images/photoMob.png"} alt=''/>
     </div>
   )
 }

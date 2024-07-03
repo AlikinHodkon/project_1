@@ -1,13 +1,10 @@
-import React from 'react'
-import "../styles/Interests.css"
-
 export default function Interests(props) {
   return (
-    <div className='interestWrapper'>
+    <div className='flex flex-row mt-5'>
         <img src={props.interest.img} alt=''/>
-        <div className='interestTextWrapper'>
-            <h4>{props.interest.header}</h4>
-            <p>{props.interest.text}</p>
+        <div className='ml-5'>
+            <h4 className='font-Mont font-semibold'>{props.interest.header}</h4>
+            <p className='font-Mont text-base'>{props.interest.text}</p>
         </div>
     </div>
   )
