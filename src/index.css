@@ -16,9 +16,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-#placeholder::placeholder {
+/* #placeholder::placeholder {
   position: absolute; top: 0; left: 0;
-}
+} */
 
 a {
   font-weight: 500;

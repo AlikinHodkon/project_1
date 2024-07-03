@@ -16,8 +16,8 @@ function App() {
       <About  ref={aboutRef}/>
       <GetInTouch  ref={getRef}/>
       <footer>
-        <div></div>
-        <p className='font-Mont text-greydark mt-[21px] mb-[21px] ml-[15px] xl:mt-[28.35px] xl:mb-[28.35px] xl:ml-[85px]'>© 2022 JetRuby. All Rights Reserved</p>
+        <div className='border-greylight w-full border-[1px]'></div>
+        <p className='font-Mont text-greydark pt-[21px] pb-[21px] pl-[15px] lg:pt-[28.35px] lg:pb-[28.35px] lg:pl-[85px]'>© 2022 JetRuby. All Rights Reserved</p>
       </footer>
     </div>
   );

@@ -1,24 +1,24 @@
 export default function GetInTouch() {
   return (
-    <div id="getInTouch" className='mt-20 bg-no-repeat bg-cover bg-form flex justify-center w-full min-h-[320px]'>
-        <form className='bg-white flex flex-col justify-center xl:mt-20 xl:mb-20 xl:pl-6 xl:pr-6 w-11/12 mt-14 mb-14 rounded-2xl'>
-            <h2 className="font-Mont text-[20px] xl:text-3xl/[32px] font-bold ml-5 mt-12">Let&apos;s discuss your project</h2>
-            <div className="flex flex-col xl:flex-row justify-between w-full mt-6">
-              <div className="flex flex-col ml-5 mt-5 mr-5 xl:w-1/2">
+    <div id="getInTouch" className='mt-20 bg-no-repeat bg-cover bg-center bg-form flex justify-center w-full min-h-[320px]'>
+        <form className='bg-white flex flex-col justify-center lg:mt-20 lg:mb-20 lg:w-[60%] lg:pl-6 lg:pr-6 w-11/12 mt-14 mb-14 rounded-2xl'>
+            <h2 className="font-Mont text-[20px] lg:text-3lg/[32px] font-bold ml-5 mt-12">Let&apos;s discuss your project</h2>
+            <div className="flex flex-col lg:flex-row justify-between w-full mt-6">
+              <div className="flex flex-col ml-5 mt-5 mr-5 lg:w-1/2">
                 <label htmlFor='name' className="font-Mont text-[14px] font-semibold mb-1">Your full name</label>
                 <input type='text' required name='name' className="text-[14px] h-10 placeholder-font-Mont pl-[20px] placeholder-greydark border rounded-2xl border-greydlight" placeholder='Name Surname' />
               </div>
-              <div className="flex flex-col ml-5 mt-5 mr-5 xl:w-1/2">
+              <div className="flex flex-col ml-5 mt-5 mr-5 lg:w-1/2">
                 <label htmlFor='email' className="font-Mont text-[14px] font-semibold mb-1">Your email</label>
-                <input type="text" required name="email" className="h-10 text-[14px] placeholder-font-Mont pl-[20px] placeholder-greydark border rounded-2xl border-greylight" placeholder='name@examle.com' />
+                <input type="text" required name="email" className="h-10 required:border-red required:border text-[14px] placeholder-font-Mont pl-[20px] placeholder-greydark border rounded-2xl border-greylight" placeholder='name@examle.com' />
               </div>
             </div>
             <div className="flex flex-col m-5 mt-5">
               <label htmlFor="describeProject" className="font-Mont text-[14px] font-semibold mb-1">Tell me about your project</label>
-              <input type='textarea' name="describeProject" id="placeholder" className="text-[14px] bg-person min-h-[124px] w-full placeholder-font-Mont placeholder-greydark border rounded-2xl border-greylight" placeholder='Add here a general description of your idea and target aim' />
+              <textarea type='textarea' name="describeProject" id="placeholder" className="required:border-red required:border text-[14px] pt-[13px] pl-[26px] pb-[13px] pr-[26px] rounded-2xl bg-person h-[124px] resize-none w-full placeholder-font-Mont placeholder-greydark border rounded-2lg border-greylight" placeholder='Add here a general description of your idea and target aim' />
             </div>
-            <div className="ml-5 mb-5" >
-              <button className="bg-lavanda rounded-[50px] text-white flex items-center" value="Get in touch">Get in touch<img className="ml-2" src='/images/paper-airplane.svg' alt=''/></button>
+            <div className="ml-5 mb-5 lg:w-32" >
+              <button type="submit" className="bg-lavanda rounded-[50px] font-semibold outline-none text-white lg:text-[16px] lg:w-full justify-center flex items-center border-none">Sumbit<img className="ml-2 lg:ml-3 lg:mt-[1px] lg:mb-[0.5]" src='/images/paper-airplane.svg' alt=''/></button>
             </div>  
         </form>
     </div>
