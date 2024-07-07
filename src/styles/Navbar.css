@@ -33,3 +33,34 @@
     width: 100%;
     border: 1px solid #E5E7EB;
 }
+
+.burgerLine1{
+    top: 0;
+    transition: .3s all linear;
+}
+
+.burgerLine2, .burgerLine3{
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .3s all linear;
+}
+
+.burgerLine4{
+    bottom: 0%;
+    transition: .3s all linear;
+}
+
+.burgerActive .burgerLine1, .burgerActive .burgerLine4{
+    opacity: 0;
+    transition: .3s all linear;
+}
+
+.burgerActive .burgerLine2{
+    transform: rotate(45deg);
+    transition: .3s all linear;
+}
+
+.burgerActive .burgerLine3{
+    transform: rotate(-45deg);
+    transition: .3s all linear;
+}

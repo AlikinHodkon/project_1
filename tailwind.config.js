@@ -7,8 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'form': "url('/public/images/Get_in_touch.png')",
-        'person': "url('/public/images/Person.png)",
+        'form': "url('/images/Get_in_touch.png')",
       },
       colors:{
         'white': '#FCFBFA',
@@ -19,6 +18,9 @@ export default {
       },
       fontFamily:{
         Mont: ["Montserrat", 'sans-serif']
+      },
+      boxShadow:{
+        '3xl': '0px 0px 0px 3px #CABFFD'
       }
     },
   },

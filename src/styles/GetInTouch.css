@@ -1,6 +1,14 @@
-.formWrapper{
-    background-image: url("/public/images/Get_in_touch.png");
-    background-size: cover;
+#name::placeholder{
+    background-image: url("/images/Person.png");
     background-repeat: no-repeat;
-    background-position: center;
+}
+
+#email::placeholder{
+    background-image: url("/images/mail.png");
+    background-repeat: no-repeat;
+}
+
+.inputContainer::after{
+    content: attr("Please fill this mandatory field");
+    color: #E02424;
 }
