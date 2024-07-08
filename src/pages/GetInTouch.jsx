@@ -8,11 +8,11 @@ export default function GetInTouch() {
             <div className="flex flex-col lg:flex-row justify-between w-full mt-6">
               <div className="flex flex-col ml-5 mt-5 mr-5 lg:w-1/2 inputContainer">
                 <label htmlFor='name' className="font-Mont text-[14px] font-semibold mb-1">Your full name</label>
-                <input id="name" type='text' required name='name' className="text-[14px] h-[7vh] placeholder-font-Mont pl-[20px] placeholder-greydark border rounded-2xl border-greydlight" placeholder='        Name Surname' />
+                <input id="name" type='text' required name='name' className="text-[14px] h-[7vh] placeholder-font-Mont pl-[50px] placeholder-greydark border rounded-2xl border-greydlight" placeholder='Name Surname' />
               </div>
               <div className="flex flex-col ml-5 mt-5 mr-5 lg:w-1/2">
                 <label htmlFor='email' className="font-Mont text-[14px] font-semibold mb-1">Your email</label>
-                <input id="email" type="text" required name="email" className="h-[7vh] required:border-red required:border text-[14px] placeholder-font-Mont pl-[20px] placeholder-greydark border rounded-2xl border-greylight" placeholder='        name@examle.com' />
+                <input id="email" type="text" required name="email" className="h-[7vh] required:border-red required:border text-[14px] placeholder-font-Mont pl-[50px] placeholder-greydark border rounded-2xl border-greylight" placeholder='name@examle.com' />
               </div>
             </div>
             <div className="flex flex-col m-5 mt-5">

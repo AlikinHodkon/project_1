@@ -1,12 +1,54 @@
-#name::placeholder{
+#name{
     background-image: url("/images/Person.png");
     background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 5%;
 }
 
-#email::placeholder{
+#email{
     background-image: url("/images/mail.png");
     background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 5%;
 }
+
+#name:hover{
+    border-color: #7E3AF2;
+} 
+
+#email:hover{
+    border-color: #7E3AF2;
+}
+
+textarea:hover:focus{
+    border-color: #7E3AF2;
+}
+
+#name:focus{
+    border-color: #7E3AF2;
+    outline: none;
+}
+
+#email:focus{
+    border-color: #7E3AF2;
+    outline: none;
+}
+
+/* #name:invalid{
+    border-color: #E02424;
+    background-image: url("/images/Error.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 5%;
+}
+
+#email:invalid{
+    border-color: #E02424;
+    background-image: url("/images/Error.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 5%;
+} */
 
 .inputContainer::after{
     content: attr("Please fill this mandatory field");
