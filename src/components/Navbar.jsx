@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className='w-full fixed z-30 bg-white'>
       <ul className='flex flex-end list-none font-Mont font-semibold text-[16px] text-greydark items-center h-[7vh] md:min-h-[7vh]'>
-          <img className="mr-auto ml-[5vw]" src={"/images/Logo.png"} alt='No-image'/>
+          <img className="mr-auto ml-[5vw]" src="./images/Logo.png" alt='No-image'/>
           <div onClick={clickHandle} ref={burger} className="flex flex-col h-[24px] mt-[14px] mr-2 w-1/12 fixed top-0 right-0 cursor-pointer md:hidden">
             <div className="bg-black w-full h-[4px] rounded absolute burgerLine1"></div>
             <div className="bg-black w-full h-[4px] rounded absolute burgerLine2"></div>
