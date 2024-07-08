@@ -20,7 +20,7 @@ export default function GetInTouch() {
               <textarea type='textarea' name="describeProject" id="placeholder" className="required:border-red required:border text-[14px] pt-[13px] pl-[26px] pb-[13px] pr-[26px] rounded-2xl bg-person h-[124px] resize-none w-full placeholder-font-Mont placeholder-greydark border rounded-2lg border-greylight" placeholder='Add here a general description of your idea and target aim' />
             </div>
             <div className="ml-5 mb-5 lg:w-32" >
-              <button type="submit" className="bg-lavanda hover:bg-[#6C2BD9] focus:outline-none focus:shadow-3xl 3px 2px 22px 1px rgba(0, 0, 0, 0.24) rounded-[50px] font-semibold outline-none text-white lg:text-[16px] lg:w-full justify-center flex items-center border-none">Sumbit<img className="ml-2 lg:ml-3 lg:mt-[1px] lg:mb-[0.5]" src='/images/paper-airplane.svg' alt=''/></button>
+              <button type="submit" className="bg-lavanda hover:bg-[#6C2BD9] focus:outline-none focus:shadow-3xl 3px 2px 22px 1px rgba(0, 0, 0, 0.24) rounded-[50px] font-semibold outline-none text-white lg:text-[16px] lg:w-full justify-center flex items-center border-none">Sumbit<img className="ml-2 lg:ml-3 lg:mt-[1px] lg:mb-[0.5]" src='./images/paper-airplane.svg' alt=''/></button>
             </div>  
         </form>
     </div>

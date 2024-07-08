@@ -18,7 +18,7 @@ export default function About() {
         <h1 className='mr-auto ml-5 font-Mont font-bold text-[20px] lg:ml-[5vw] lg:text-[32px]'>About me</h1>
         <div className='flex flex-col md:flex-row lg:flex-row mt-10 w-full'>
             <div className='ml-5 mr-5 md:w-10/12 lg:w-5/12 lg:ml-[5vw]'>
-                <img src={'/images/photo2.png'} alt='' id='frontImg' />
+                <img src={'./images/photo2.png'} alt='' id='frontImg' />
             </div>
             <div className='flex flex-col lg:justify-center lg:ml-[10vw] ml-5 mt-5'>
               <div className='lg:w-7/12 md:w-8/12 flex flex-col ml-1/10'>
@@ -27,7 +27,7 @@ export default function About() {
                   Clear code is my passion. Solving issues through negotiations </p>
               </div>
               <div className='hidden md:flex md:ml-1/10 md:mt-12 md:w-44'>
-                <button onClick={() => {document.getElementById('getInTouch').scrollIntoView({ behavior: 'smooth'})}} className='bg-lavanda hover:bg-[#6C2BD9] focus:outline-none focus:shadow-3xl border-none text-white md:text-[16px] w-full flex justify-center lg:font-semibold items-center rounded-[50px]'>Get in touch<img className="ml-2 lg:ml-4 lg:mt-[1px] lg:mb-[0.5]" src='/images/paper-airplane.svg' alt=''/></button>
+                <button onClick={() => {document.getElementById('getInTouch').scrollIntoView({ behavior: 'smooth'})}} className='bg-lavanda hover:bg-[#6C2BD9] focus:outline-none focus:shadow-3xl border-none text-white md:text-[16px] w-full flex justify-center lg:font-semibold items-center rounded-[50px]'>Get in touch<img className="ml-2 lg:ml-4 lg:mt-[1px] lg:mb-[0.5]" src='./images/paper-airplane.svg' alt=''/></button>
               </div>
             </div>  
         </div>
@@ -45,7 +45,7 @@ export default function About() {
             </ul>
           </div>
           <div className='w-auto mt-12 ml-5 lg:hidden'>
-            <button  onClick={() => {document.getElementById('getInTouch').scrollIntoView({ behavior: 'smooth'})}} className='bg-lavanda hover:bg-[#6C2BD9] focus:outline-none focus:shadow-3xl border-none text-white flex items-center rounded-[50px]'>Get in touch<img className="ml-2" src='/images/paper-airplane.svg' alt=''/></button>
+            <button  onClick={() => {document.getElementById('getInTouch').scrollIntoView({ behavior: 'smooth'})}} className='bg-lavanda hover:bg-[#6C2BD9] focus:outline-none focus:shadow-3xl border-none text-white flex items-center rounded-[50px]'>Get in touch<img className="ml-2" src='./images/paper-airplane.svg' alt=''/></button>
           </div>
         </div>
     </div>
