@@ -1,56 +1,58 @@
-#name{
+.name{
     background-image: url("/images/Person.png");
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 5%;
 }
 
-#email{
+.email{
     background-image: url("/images/mail.png");
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 5%;
 }
 
-#name:hover{
+.nameFilled{
+    background-image: url("/images/Person.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 5%;
+}
+
+.emailFilled{
+    background-image: url("/images/mail.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 5%;
+}
+
+.name:hover{
     border-color: #7E3AF2;
 } 
 
-#email:hover{
+.email:hover{
     border-color: #7E3AF2;
 }
 
 textarea:hover:focus{
     border-color: #7E3AF2;
+    outline: none;
 }
 
-#name:focus{
+.name:focus{
     border-color: #7E3AF2;
     outline: none;
 }
 
-#email:focus{
+.email:focus{
     border-color: #7E3AF2;
     outline: none;
 }
 
-/* #name:invalid{
+.invalid{
     border-color: #E02424;
     background-image: url("/images/Error.png");
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 5%;
-}
-
-#email:invalid{
-    border-color: #E02424;
-    background-image: url("/images/Error.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-position-x: 5%;
-} */
-
-.inputContainer::after{
-    content: attr("Please fill this mandatory field");
-    color: #E02424;
 }

@@ -15,6 +15,7 @@ export default {
         'greydark': '#696969',
         'greylight': '#E5E7EB',
         'lavanda': "#7E3AF2",
+        'red': "#E02424"
       },
       fontFamily:{
         Mont: ["Montserrat", 'sans-serif']
