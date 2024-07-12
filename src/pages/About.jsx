@@ -17,13 +17,13 @@ export default function About() {
     <div id="about" className='mt-12 flex flex-col items-center justify-center mb-15 w-full section'>
         <h1 className='mr-auto ml-5 font-Mont font-bold text-[20px] lg:ml-[5vw] lg:text-[32px]'>About me</h1>
         <div className='flex flex-col md:flex-row lg:flex-row mt-10 w-full'>
-            <div className='ml-5 mr-5 md:w-10/12 lg:w-5/12 lg:ml-[5vw]'>
+            <div className='ml-5 mr-5 sm:flex sm:items-center sm:justify-center md:w-10/12 lg:w-5/12 lg:ml-[5vw]'>
                 <img src='./images/photo2.png' alt='' id='frontImg' />
             </div>
             <div className='flex flex-col lg:justify-center lg:ml-[10vw] ml-5 mt-5'>
               <div className='lg:w-7/12 md:w-8/12 flex flex-col ml-1/10'>
                   <div className='border-[2px] border-lavanda w-[25px] mt-2 mb-4 lg:mb-[4vh]'></div>
-                  <p className='font-Mont text-[14px] text-greydark md:text-[20px]'><span className='text-black font-Mont font-semibold text-[14px] md:text-[20px] lg:text-[20px]'>Nick Richardson</span> - specialist in Frontend development. 
+                  <p className='font-Mont text-[14px] sm:text-[20px] text-greydark md:text-[20px]'><span className='text-black font-Mont font-semibold text-[14px] sm:text-[20px] md:text-[20px] lg:text-[20px]'>Nick Richardson</span> - specialist in Frontend development. 
                   Clear code is my passion. Solving issues through negotiations </p>
               </div>
               <div className='hidden md:flex md:ml-1/10 md:mt-12 md:w-44'>

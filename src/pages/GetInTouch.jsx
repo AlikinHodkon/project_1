@@ -45,13 +45,13 @@ export default function GetInTouch() {
             <h2 className="font-Mont text-[20px] lg:text-3lg/[32px] font-bold ml-5 mt-12">Let&apos;s discuss your project</h2>
             <div className="flex flex-col lg:flex-row justify-between w-full mt-6">
               <div className="flex flex-col ml-5 mt-5 mr-5 lg:w-1/2 inputContainer">
-                <label htmlFor='name' className="font-Mont text-[14px] font-semibold mb-1">Your full name</label>
-                <input ref={name} onChange={(e) => {handleChange(e)}} type='text' name='name' className="text-[14px] name h-[7vh] placeholder-font-Mont pl-[50px] placeholder-greydark border rounded-2xl border-greydlight" placeholder='Name Surname' />
+                <label htmlFor='name' className="font-Mont text-[14px] font-semibold mb-1">Your full name<span className="text-red font-semibold text-[14px]"> * </span></label>
+                <input ref={name} onChange={(e) => {handleChange(e)}} type='text' name='name' className="text-[14px] name md:pl-[70px] lg:pl-[50px] h-[7vh] md:max-h-[5vh] lg:max-h-[7vh] placeholder-font-Mont pl-[50px] placeholder-greydark border rounded-2xl border-greydlight" placeholder='Name Surname' />
                 <p ref={invalidName} className="mt-0 clear-both text-red font-Mont text-[14px] font-semibold hidden">Please fill this mandatory field</p>
               </div>
               <div className="flex flex-col ml-5 mt-5 mr-5 lg:w-1/2">
-                <label htmlFor='email' className="font-Mont text-[14px] font-semibold mb-1">Your email</label>
-                <input ref={email} onChange={(e) => {handleChange(e)}} type="text" name="email" className="h-[7vh] email required:border-red required:border text-[14px] placeholder-font-Mont pl-[50px] placeholder-greydark border rounded-2xl border-greylight" placeholder='name@examle.com' />
+                <label htmlFor='email' className="font-Mont text-[14px] font-semibold mb-1">Your email<span className="text-red font-semibold text-[14px]"> * </span></label>
+                <input ref={email} onChange={(e) => {handleChange(e)}} type="text" name="email" className="h-[7vh] email md:pl-[70px] lg:pl-[50px] md:max-h-[5vh] lg:max-h-[7vh] required:border-red required:border text-[14px] placeholder-font-Mont pl-[50px] placeholder-greydark border rounded-2xl border-greylight" placeholder='name@examle.com' />
                 <p ref={invalidEmail} className="mt-0 clear-both text-red font-Mont text-[14px] font-semibold hidden">Please fill this mandatory field</p>
               </div>
             </div>
